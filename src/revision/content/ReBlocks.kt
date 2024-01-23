@@ -157,7 +157,7 @@ class ReBlocks {
                 hasLiquids = false
                 hasItems = true
                 outputItem = ItemStack(Items.scrap, 1)
-                consumeItem(Items.sand, 4)
+                consumeItem(Items.sand, 1)
             }
 
             tainter = GenericCrafter("tainter").apply {
